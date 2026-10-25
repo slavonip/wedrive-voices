@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "updated": "2026-10-26",
+  "packs": [
+    {
+      "packId": "ru-silero-v5cis",
+      "language": "ru",
+      "version": 1,
+      "engine": "NEURAL",
+      "voices": [
+        {"gender": "FEMALE", "speakerName": "ru_ekaterina"},
+        {"gender": "MALE", "speakerName": "ru_eduard"}
+      ],
+      "license": "MIT",
+      "archive": {
+        "name": "ru-silero-v5cis.tar.gz",
+        "url": "https://github.com/slavonip/wedrive-voices/releases/download/packs/ru-silero-v5cis.tar.gz",
+        "sizeBytes": 56944640,
+        "sha256": "8c8044a12152afe90d78b42019d49464d2a78963540aaa458a590fb6e02cea01"
+      }
+    },
+    {
+      "packId": "en-kokoro-82m",
+      "language": "en",
+      "version": 1,
+      "engine": "NEURAL",
+      "sampleRate": 24000,
+      "voices": [
+        {"gender": "FEMALE", "speakerName": "af_heart"},
+        {"gender": "MALE", "speakerName": "am_fenrir"},
+        {"gender": "MALE_ALT", "speakerName": "am_michael"}
+      ],
+      "license": "Apache-2.0 (Kokoro-82M weights, misaki lexicon); espeak-ng GPL-3 fallback NOT shipped - see pack NOTICE",
+      "archive": {
+        "name": "en-kokoro-82m.tar.gz",
+        "url": "https://github.com/slavonip/wedrive-voices/releases/download/packs/en-kokoro-82m.tar.gz",
+        "sizeBytes": 304260923,
+        "sha256": "49e2f565593ca366ea04abc5e8fd03b90ef0097d1ea87a1acca94f82f241fa3b"
+      }
+    }
+  ]
+}
